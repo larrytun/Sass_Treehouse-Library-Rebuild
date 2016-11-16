@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1100px;
   height: 800px;
   background-color: #EDEFF0;
 }
@@ -37,9 +37,12 @@ h1 {
 }
 
 .nav-line {
-  width: 1170px;
-  border-bottom: 3px solid #C7C9C9;
+  width: 1060px;
+  border-bottom: 2px solid #C7C9C9;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  box-shadow: 0px 1px 4px #cacece;
 }
 
 .course-window {
@@ -55,15 +58,41 @@ h1 {
   margin-left: 25px;
 }
 
+#window2 {
+  margin-top: 10px;
+  margin-left: 555px;
+}
+
+#window3 {
+  margin-left: 25px;
+  margin-top: 340px;
+}
+
+#window4 {
+  margin-left: 555px;
+  margin-top: 340px;
+}
+
 .window-heading {
   width: 500px;
   height: 50px;
-  background-color: #2C9676;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   padding-top: 13px;
   padding-left: 23px;
   padding-right: 19px;
+}
+
+#window-heading1 {
+  background-color: #2C9676;
+}
+
+#window-heading2 {
+  background-color: #F092B0;
+}
+
+#window-heading3 {
+  background-color: #838CC7;
 }
 
 .window-heading h4 {
@@ -103,7 +132,6 @@ h1 {
   width: 65px;
 }
 
-
 p {
   font-size: 15px;
   color: #7D8D90;
@@ -138,4 +166,48 @@ h5 {
   margin: auto;
   margin-top: -8px;
   font-size: 14px;
+}
+
+h7 {
+ color: #BFC7CE;
+ margin-top: 5px;
+ float: left;
+}
+
+
+.python {
+  color: #F092B0;
+}
+
+.word-press {
+  color: #838CC7;
+}
+
+.star-icon {
+  margin-left: 6px;
+}
+
+.book-icon {
+  width: 17px;
+  height: 20px;
+  float: left;
+}
+
+.circle {
+  opacity: .5;
+  width: 10px;
+  margin-right: 3px;
+}
+
+.circles {
+  float: left;
+  margin-left: 17px;
+  margin-top: 2px;
+}
+
+.arrow {
+  border-right: thin solid #BFC7CE;
+  border-left: thin solid #BFC7CE;
+  padding-left: 20px;
+  padding-right: 20px;
 }
