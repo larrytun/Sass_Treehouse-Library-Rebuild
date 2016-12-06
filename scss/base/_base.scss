@@ -10,7 +10,7 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 h1 {
-  color: #384047;
+  color: $bright-grey;
   font-size: 20px;
 }
 #window1 {
@@ -34,15 +34,15 @@ h1 {
 }
 
 #window-heading1 {
-  background-color: #2C9676;
+  background-color: $lochinvar;
 }
 
 #window-heading2 {
-  background-color: #F092B0;
+  background-color: $mauvelous;
 }
 
 #window-heading3 {
-  background-color: #838CC7;
+  background-color: $ship-cove;
 }
 
 .window-heading h4 {
@@ -52,28 +52,26 @@ h1 {
   margin-top: 5px;
 }
 
-
-
 .window-content {
   margin: 30px;
 }
 p {
-  @include text (15px, #7D8D90);
+  @include text (15px, $oslo-grey);
 }
 
 h2 {
-  @include text (20px, #4B5658, -10px);
+  @include text (20px, $abbey, -10px);
   margin-bottom: 20px;
 }
 
 h3 {
-  @include text (15px, #7C8B8E);
+  @include text (15px, $oslo-grey);
 }
 h5 {
   @include text (14px, $margin-top: -8px);
 }
 
 h7 {
-  @include text (17px, #BFC7CE, 5px);
+  @include text (17px, $loblolly, 5px);
  float: left;
 }
