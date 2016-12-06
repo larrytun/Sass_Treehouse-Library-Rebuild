@@ -10,3 +10,8 @@ $loblolly    : #BFC7CE;
 $porcelain   : #EDEFF0;
 $silver-sand : #C7C9C9;
 $iron        : #cacece;
+
+// breakpoints
+
+$brk-narrow : '(max-width: 1037px)';
+$brk-wide : '(max-width: 1260px)';
