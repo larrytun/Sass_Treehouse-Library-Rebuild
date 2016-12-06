@@ -1,0 +1,5 @@
+@mixin text($size, $color: null, $margin-top: null) {
+  font-size: $size;
+  color: $color;
+  margin-top: $margin-top;
+}
