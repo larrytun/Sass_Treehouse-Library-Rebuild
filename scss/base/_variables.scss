@@ -14,4 +14,5 @@ $iron        : #cacece;
 // breakpoints
 
 $brk-narrow : '(max-width: 1037px)';
-$brk-wide : '(max-width: 1260px)';
+$brk-wide : '(min-width: 1260px)';
+$brk-mini : '(max-width: 520px)';

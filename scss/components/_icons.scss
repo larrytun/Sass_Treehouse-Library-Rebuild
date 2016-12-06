@@ -9,8 +9,31 @@
 
 .star-icon {
   margin-left: 6px;
-}
 
+  @media #{$brk-mini} {
+    margin-left: 10px;
+    float: right;
+    margin-top: -30px;
+  }
+}
+.window-icons {
+  @media #{$brk-wide} {
+    margin-top: -23px;
+    display: block;
+  }
+}
+.window-icon-button1 {
+  margin-top: 0px;
+  @media #{$brk-wide} {
+    margin-top: 0px;
+  }
+}
+#word-press-oval {
+  margin-top: 0px;
+  @media #{$brk-wide} {
+    margin-top: 0px;
+  }
+}
 .book-icon {
   width: 17px;
   height: 20px;
@@ -37,4 +60,8 @@
 .content-icons {
   margin-top: 50px;
   margin-left: 70%;
+
+  @media #{$brk-mini} {
+    margin-top: 40px;
+  }
 }

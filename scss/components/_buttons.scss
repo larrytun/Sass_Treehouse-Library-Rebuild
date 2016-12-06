@@ -1,17 +1,32 @@
 .course-oval {
   @extend %buttons;
+
+  @media #{$brk-mini} {
+    margin-top: 25px;
+  }
 }
 
 .intermediate-oval {
   @extend %buttons;
   width: 120px;
   margin-left: 10px;
+
+  @media #{$brk-mini} {
+    margin-top: 25px;
+  }
 }
 
 #java-oval {
   width: 65px;
 }
 
+.play-button {
+  visibility: visible;
+
+  @media #{$brk-narrow} {
+    visibility: hidden;
+  }
+}
 
 .java {
   color: $lochinvar;

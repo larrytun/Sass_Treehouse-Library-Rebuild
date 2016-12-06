@@ -1,10 +1,20 @@
 .container {
+  max-width: 1300px;
   width: 90vw;
   height: 800px;
   background-color: $porcelain;
+  margin: auto;
 
   @media #{$brk-narrow} {
     height: 1400px;
+  }
+
+  @media #{$brk-mini} {
+    height: 1500px;
+  }
+
+  @media #{$brk-wide} {
+    width: 1300px;
   }
 }
 .course-window {
@@ -18,6 +28,15 @@
     width: 82%;
     float: left;
     clear: both;
+  }
+
+  @media #{$brk-mini} {
+    height: 325px;
+  }
+  @media #{$brk-wide} {
+    height: 310px;
+    width: 380px;
+
   }
 }
 
@@ -34,6 +53,7 @@
 #window1 {
   margin-top: 10px;
   margin-left: 25px;
+
 }
 
 #window2 {
@@ -43,6 +63,14 @@
   @media #{$brk-narrow} {
     margin-top: 340px;
     margin-left: 25px;
+  }
+  @media #{$brk-mini} {
+    margin-top: 360px;
+  }
+  @media #{$brk-wide} {
+    left: -139px;
+    top: 2px;
+    position: relative;
   }
 }
 
@@ -54,6 +82,15 @@
     margin-top: 670px;
     margin-left: 25px;
   }
+
+  @media #{$brk-mini} {
+    margin-top: 710px;
+  }
+  @media #{$brk-wide} {
+    left: 812px;
+    top: -648px;
+    position: relative;
+  }
 }
 
 #window4 {
@@ -63,5 +100,13 @@
   @media #{$brk-narrow} {
     margin-top: 1000px;
     margin-left: 25px;
+  }
+  @media #{$brk-mini} {
+    margin-top: 1060px;
+  }
+  @media #{$brk-wide} {
+    left: -547px;
+    top: -950px;
+    position: relative;
   }
 }
