@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#window-heading1 {
+  background-color: $astral;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  // background-color: $porcelain;
+}
+
+
+h1 {
+  @include text (20px, $bright-grey);
+}
+
+h7 {
+  float: left;
+  margin-top: 3px;
+}
+
+.window-heading h4 {
+  @include text (13px, white);
+  float: right;
+  margin-top: 5px;
+}
+
+.course-button h4 {
+  @include text (16px);
+}
+.restofpage {
+  margin-top: 625px;
+}
+
+p {
+  @include text (16px, $nevada, 2em);
+  display: inline;
+}
+
+.prereq {
+  @include text (14px, $nevada);
+  font-weight: bold;
+}

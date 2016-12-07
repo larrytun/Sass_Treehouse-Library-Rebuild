@@ -1,0 +1,42 @@
+.nav-icons {
+  float: right;
+  margin-top: -40px;
+}
+
+.nav-icons img {
+  margin-left: 10px;
+}
+
+.arrow {
+  border-right: thin solid $loblolly;
+  border-left: thin solid $loblolly;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.circle {
+  opacity: .5;
+  width: 10px;
+  margin-right: 3px;
+}
+
+.circles {
+  float: left;
+  margin-left: 17px;
+  margin-top: 2px;
+}
+
+.book-icon {
+  width: 17px;
+  height: 20px;
+  float: left;
+}
+.star-icon1 {
+  position: relative;
+  left: 965px;
+}
+.teacher {
+  border-radius: 100px;
+  width: 50px;
+  float: right;
+}

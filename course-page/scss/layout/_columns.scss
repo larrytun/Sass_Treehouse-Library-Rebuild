@@ -1,0 +1,17 @@
+.nav-line {
+  width: 100%;
+  border-bottom: 2px solid $silver-sand;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  // box-shadow: 0px 1px 4px $iron;
+  margin-left: 3px;
+}
+.column1 {
+  float: left;
+  width: 75%;
+}
+.column2 {
+  width: 20%;
+  float: right;
+}

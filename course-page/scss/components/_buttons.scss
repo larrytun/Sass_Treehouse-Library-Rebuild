@@ -1,0 +1,33 @@
+.course-button {
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  margin: auto;
+  margin-top: 22%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.intermediate, .CSS {
+  position: relative;
+  top: -30px;
+}
+
+.course-oval {
+  @extend %buttons;
+
+  // @media #{$brk-mini} {
+  //   margin-top: 25px;
+  // }
+}
+
+.intermediate-oval {
+  @extend %buttons;
+  width: 120px;
+  margin-left: 10px;
+
+  // @media #{$brk-mini} {
+  //   margin-top: 25px;
+  // }
+}
